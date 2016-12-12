@@ -158,13 +158,23 @@
             </a>
           </div>
           <div>
-            <a class="nav-link" href="mailto:hello@proteam.io?Subject=I%20Like%20What%20You're%20Doing">
+
+            <a class="nav-link" id='mailingLink' href="mailto:hello@proteam.io?Subject=I%20Like%20What%20You're%20Doing">
               Email Us
             </a>
           </div>
         </div>
       </div>
     </div>
+
+    <script>
+      var a = 'hello';
+      var b = '@';
+      var c = 'proteam.io';
+      var d = document.getElementById('yourlinkId'); 
+      d.href = 'mailto:hello' + a+b+c + "?Subject=I%20Like%20What%20You're%20Doing";
+
+    </script>
 
     <script type='text/javascript' src='https://s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
     <!--End mc_embed_signup-->
