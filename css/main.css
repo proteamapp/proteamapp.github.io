@@ -18,8 +18,9 @@
 }
 
 .mce_inline_error {
-    background-color: #FFF6F6;
-    color: #9F3A38;
+    background-color: #FFF6F6!important;
+    color: #9F3A38!important;
+    width: 260px!important;
 }
 
 @import url('https://fonts.googleapis.com/css?family=Karla:400,700');
@@ -549,6 +550,7 @@ i {
 .footer {
     background-color: #000000;
 }
+
 
 
 
